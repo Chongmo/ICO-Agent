@@ -1,0 +1,79 @@
+                     Route
+                       / Distance (in km) / Compare adjacent to current route
+-------------------------------------------------------------------------------------------------------
+[PARIS, MARSEILLE, LYON, TOULOUSE, NICE, NANTES] /  2901,92avr. 30, 2019 5:38:29 PM jade.core.Runtime beginContainer
+INFO: ----------------------------------
+    This is JADE 4.5.0 - revision 6825 of 23-05-2017 10:06:04
+    downloaded in Open Source, under LGPL restrictions,
+    at http://jade.tilab.com/
+----------------------------------------
+avr. 30, 2019 5:38:29 PM jade.imtp.leap.LEAPIMTPManager initialize
+INFO: Listening for intra-platform commands on address:
+- jicp://172.30.134.221:2222
+
+avr. 30, 2019 5:38:30 PM jade.core.BaseService init
+INFO: Service jade.core.management.AgentManagement initialized
+avr. 30, 2019 5:38:30 PM jade.core.BaseService init
+INFO: Service jade.core.messaging.Messaging initialized
+avr. 30, 2019 5:38:30 PM jade.core.BaseService init
+INFO: Service jade.core.resource.ResourceManagement initialized
+avr. 30, 2019 5:38:30 PM jade.core.BaseService init
+INFO: Service jade.core.mobility.AgentMobility initialized
+avr. 30, 2019 5:38:30 PM jade.core.BaseService init
+INFO: Service jade.core.event.Notification initialized
+avr. 30, 2019 5:38:30 PM jade.mtp.http.HTTPServer <init>
+INFO: HTTP-MTP Using XML parser com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser
+avr. 30, 2019 5:38:30 PM jade.core.messaging.MessagingService boot
+INFO: MTP addresses:
+http://172.30.134.221:7778/acc
+avr. 30, 2019 5:38:30 PM jade.core.AgentContainerImpl joinPlatform
+INFO: --------------------------------------
+Agent container Main-Container@172.30.134.221 is ready.
+--------------------------------------------
+Début du comportement Genetique...
+Début du comportement Tabou...
+Début du comportement RS...
+Début du comportement HC...
+[PARIS, MARSEILLE, LYON, TOULOUSE, NICE, NANTES]
+Agent collecteur : J'ai reçu un message de  AGENT_GENETIQUE@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_TABOU@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_HILL@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_RS@maPlateforme
+On a trouvé mieux !
+Le nouveau résultat trouvé est 
+[TOULOUSE, NANTES, PARIS, LYON, NICE, MARSEILLE] : 1977.3374491337395 7.0
+On essaye de trouver encore mieux...
+Agent AG : J'ai reçu un message de  AGENT_Collector@maPlateforme
+1977.3374491337395
+Agent Tabou : J'ai reçu un message de  AGENT_Collector@maPlateforme
+Agent RS : J'ai reçu un message de  AGENT_Collector@maPlateforme
+1977.3374491337395
+1977.3374491337395
+Agent collecteur : J'ai reçu un message de  AGENT_TABOU@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_HILL@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_TABOU@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_HILL@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_GENETIQUE@maPlateforme
+Agent RS : J'ai reçu un message de  AGENT_Collector@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_RS@maPlateforme
+1977.3374491337395
+On a trouvé mieux !
+Le nouveau résultat trouvé est 
+[LYON, NICE, MARSEILLE, TOULOUSE, NANTES, PARIS] : 1977.3374491337393 2.0
+On essaye de trouver encore mieux...
+Agent AG : J'ai reçu un message de  AGENT_Collector@maPlateforme
+Agent Tabou : J'ai reçu un message de  AGENT_Collector@maPlateforme
+Agent RS : J'ai reçu un message de  AGENT_Collector@maPlateforme
+1977.3374491337393
+1977.3374491337393
+1977.3374491337393
+Agent collecteur : J'ai reçu un message de  AGENT_HILL@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_HILL@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_TABOU@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_TABOU@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_GENETIQUE@maPlateforme
+Agent RS : J'ai reçu un message de  AGENT_Collector@maPlateforme
+1977.3374491337393
+Agent collecteur : J'ai reçu un message de  AGENT_RS@maPlateforme
+Désolé, nous n'arrivons pas à trouver mieux..
+Voici notre résultat optimale : [LYON, NICE, MARSEILLE, TOULOUSE, NANTES, PARIS] : 1977.3374491337393 2.0

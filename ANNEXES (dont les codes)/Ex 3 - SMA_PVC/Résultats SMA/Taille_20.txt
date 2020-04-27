@@ -1,0 +1,115 @@
+                                                                                          Route
+                                                                                           / Distance (in km) / Compare adjacent to current route
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[PARIS, MARSEILLE, LYON, TOULOUSE, NICE, NANTES, STRASBOURG, MONTPELLIER, BORDEAUX, LILLE, RENNES, REIMS, LE HAVRE, SAINT-ETIENNE, TOULON, GRENOBLE, DIJON, ANGERS, SAINT-DENIS, LE MANS] / 21696,43avr. 30, 2019 5:41:35 PM jade.core.Runtime beginContainer
+INFO: ----------------------------------
+    This is JADE 4.5.0 - revision 6825 of 23-05-2017 10:06:04
+    downloaded in Open Source, under LGPL restrictions,
+    at http://jade.tilab.com/
+----------------------------------------
+avr. 30, 2019 5:41:35 PM jade.imtp.leap.LEAPIMTPManager initialize
+INFO: Listening for intra-platform commands on address:
+- jicp://172.30.134.221:2222
+
+avr. 30, 2019 5:41:35 PM jade.core.BaseService init
+INFO: Service jade.core.management.AgentManagement initialized
+avr. 30, 2019 5:41:35 PM jade.core.BaseService init
+INFO: Service jade.core.messaging.Messaging initialized
+avr. 30, 2019 5:41:35 PM jade.core.BaseService init
+INFO: Service jade.core.resource.ResourceManagement initialized
+avr. 30, 2019 5:41:35 PM jade.core.BaseService init
+INFO: Service jade.core.mobility.AgentMobility initialized
+avr. 30, 2019 5:41:35 PM jade.core.BaseService init
+INFO: Service jade.core.event.Notification initialized
+avr. 30, 2019 5:41:35 PM jade.mtp.http.HTTPServer <init>
+INFO: HTTP-MTP Using XML parser com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser
+avr. 30, 2019 5:41:35 PM jade.core.messaging.MessagingService boot
+INFO: MTP addresses:
+http://172.30.134.221:7778/acc
+avr. 30, 2019 5:41:35 PM jade.core.AgentContainerImpl joinPlatform
+INFO: --------------------------------------
+Agent container Main-Container@172.30.134.221 is ready.
+--------------------------------------------
+Début du comportement Genetique...
+Début du comportement RS...
+[PARIS, MARSEILLE, LYON, TOULOUSE, NICE, NANTES, STRASBOURG, MONTPELLIER, BORDEAUX, LILLE, RENNES, REIMS, LE HAVRE, SAINT-ETIENNE, TOULON, GRENOBLE, DIJON, ANGERS, SAINT-DENIS, LE MANS]
+Début du comportement Tabou...
+Début du comportement HC...
+Agent collecteur : J'ai reçu un message de  AGENT_HILL@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_TABOU@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_GENETIQUE@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_RS@maPlateforme
+On a trouvé mieux !
+Le nouveau résultat trouvé est 
+[MONTPELLIER, DIJON, PARIS, LE HAVRE, LE MANS, NANTES, SAINT-DENIS, NICE, STRASBOURG, REIMS, RENNES, ANGERS, GRENOBLE, TOULOUSE, TOULON, MARSEILLE, LYON, SAINT-ETIENNE, BORDEAUX, LILLE] : 19068.599100108528 3.0
+On essaye de trouver encore mieux...
+Agent AG : J'ai reçu un message de  AGENT_Collector@maPlateforme
+Agent RS : J'ai reçu un message de  AGENT_Collector@maPlateforme
+Agent Tabou : J'ai reçu un message de  AGENT_Collector@maPlateforme
+19068.599100108528
+19068.599100108528
+19068.599100108528
+Agent collecteur : J'ai reçu un message de  AGENT_TABOU@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_HILL@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_TABOU@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_HILL@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_GENETIQUE@maPlateforme
+Agent RS : J'ai reçu un message de  AGENT_Collector@maPlateforme
+19068.599100108528
+Agent collecteur : J'ai reçu un message de  AGENT_RS@maPlateforme
+On a trouvé mieux !
+Le nouveau résultat trouvé est 
+[STRASBOURG, NICE, LYON, RENNES, NANTES, LE MANS, PARIS, REIMS, SAINT-DENIS, GRENOBLE, TOULON, SAINT-ETIENNE, TOULOUSE, MARSEILLE, MONTPELLIER, LILLE, LE HAVRE, ANGERS, BORDEAUX, DIJON] : 18500.42183195304 7.0
+On essaye de trouver encore mieux...
+Agent AG : J'ai reçu un message de  AGENT_Collector@maPlateforme
+Agent RS : J'ai reçu un message de  AGENT_Collector@maPlateforme
+18500.42183195304
+Agent Tabou : J'ai reçu un message de  AGENT_Collector@maPlateforme
+18500.42183195304
+18500.42183195304
+Agent collecteur : J'ai reçu un message de  AGENT_HILL@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_HILL@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_TABOU@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_TABOU@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_GENETIQUE@maPlateforme
+Agent RS : J'ai reçu un message de  AGENT_Collector@maPlateforme
+18500.42183195304
+Agent collecteur : J'ai reçu un message de  AGENT_RS@maPlateforme
+On a trouvé mieux !
+Le nouveau résultat trouvé est 
+[STRASBOURG, REIMS, TOULON, MARSEILLE, SAINT-DENIS, GRENOBLE, MONTPELLIER, NICE, LE MANS, TOULOUSE, BORDEAUX, LE HAVRE, ANGERS, NANTES, RENNES, PARIS, LILLE, DIJON, SAINT-ETIENNE, LYON] : 17908.435065456386 3.0
+On essaye de trouver encore mieux...
+Agent AG : J'ai reçu un message de  AGENT_Collector@maPlateforme
+Agent RS : J'ai reçu un message de  AGENT_Collector@maPlateforme
+Agent Tabou : J'ai reçu un message de  AGENT_Collector@maPlateforme
+17908.435065456386
+17908.435065456386
+17908.435065456386
+Agent collecteur : J'ai reçu un message de  AGENT_HILL@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_TABOU@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_HILL@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_TABOU@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_GENETIQUE@maPlateforme
+Agent RS : J'ai reçu un message de  AGENT_Collector@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_RS@maPlateforme
+17908.435065456386
+On a trouvé mieux !
+Le nouveau résultat trouvé est 
+[SAINT-DENIS, STRASBOURG, DIJON, PARIS, REIMS, LILLE, LE HAVRE, LE MANS, TOULON, NICE, SAINT-ETIENNE, BORDEAUX, ANGERS, RENNES, NANTES, MARSEILLE, GRENOBLE, MONTPELLIER, TOULOUSE, LYON] : 17713.842893497997 9.0
+On essaye de trouver encore mieux...
+Agent AG : J'ai reçu un message de  AGENT_Collector@maPlateforme
+Agent RS : J'ai reçu un message de  AGENT_Collector@maPlateforme
+Agent Tabou : J'ai reçu un message de  AGENT_Collector@maPlateforme
+17713.842893497997
+17713.842893497997
+17713.842893497997
+Agent collecteur : J'ai reçu un message de  AGENT_HILL@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_TABOU@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_HILL@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_TABOU@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_GENETIQUE@maPlateforme
+Agent RS : J'ai reçu un message de  AGENT_Collector@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_RS@maPlateforme
+17713.842893497997
+Désolé, nous n'arrivons pas à trouver mieux..
+Voici notre résultat optimale : [SAINT-DENIS, STRASBOURG, DIJON, PARIS, REIMS, LILLE, LE HAVRE, LE MANS, TOULON, NICE, SAINT-ETIENNE, BORDEAUX, ANGERS, RENNES, NANTES, MARSEILLE, GRENOBLE, MONTPELLIER, TOULOUSE, LYON] : 17713.842893497997 9.0

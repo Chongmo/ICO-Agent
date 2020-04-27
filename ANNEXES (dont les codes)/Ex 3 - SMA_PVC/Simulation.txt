@@ -1,0 +1,121 @@
+                                                                                                                                                                                                                                                                                                                                                                                                                                                           Route
+                                                                                                                                                                                                                                                                                                                                                                                                                                                            / Distance (in km) / Compare adjacent to current route
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[PARIS, MARSEILLE, LYON, TOULOUSE, NICE, NANTES, STRASBOURG, MONTPELLIER, BORDEAUX, LILLE, RENNES, REIMS, LE HAVRE, SAINT-ETIENNE, TOULON, GRENOBLE, DIJON, ANGERS, SAINT-DENIS, LE MANS, AIX-EN-PROVENCE, BREST, VILLEURBANNE, NIMES, LIMOGES, CLERMONT-FERRAND, TOURS, AMIENS, METZ, BESANCON, PERPIGNAN, ORLEANS, BOULOGNE-BILLANCOURT, MULHOUSE, CAEN, ROUEN, NANCY, SAINT-DENIS, SAINT-PAUL, ARGENTEUIL, MONTREUIL, ROUBAIX, DUNKERQUE, TOURCOING, AVIGNON, NANTERRE, CRETEIL, POITIERS, FORT-DE-FRANCE, VERSAILLES, COURBEVOIE, VITRY-SUR-SEINE, PAU, COLOMBES, AULNAY-SOUS-BOIS, ASNIERES-SUR-SEINE, SAINT-PIERRE, RUEIL-MALMAISON, ANTIBES, LA ROCHELLE, SAINT-MAUR-DES-FOSSES, CHAMPIGNY-SUR-MARNE, CALAIS, AUBERVILLIERS, TAMPON, CANNES, BEZIERS, BOURGES, COLMAR, SAINT-NAZAIRE, DRANCY, MERIGNAC, AJACCIO, VALENCE, QUIMPER, ISSY-LES-MOULINEAUX, NOISY-LE-GRAND, LEVALLOIS-PERRET, VILLENEUVE-D'ASCQ, TROYES] / 84381,81avr. 30, 2019 6:19:25 PM jade.core.Runtime beginContainer
+INFO: ----------------------------------
+    This is JADE 4.5.0 - revision 6825 of 23-05-2017 10:06:04
+    downloaded in Open Source, under LGPL restrictions,
+    at http://jade.tilab.com/
+----------------------------------------
+avr. 30, 2019 6:19:25 PM jade.imtp.leap.LEAPIMTPManager initialize
+INFO: Listening for intra-platform commands on address:
+- jicp://172.30.134.221:2222
+
+avr. 30, 2019 6:19:25 PM jade.core.BaseService init
+INFO: Service jade.core.management.AgentManagement initialized
+avr. 30, 2019 6:19:25 PM jade.core.BaseService init
+INFO: Service jade.core.messaging.Messaging initialized
+avr. 30, 2019 6:19:25 PM jade.core.BaseService init
+INFO: Service jade.core.resource.ResourceManagement initialized
+avr. 30, 2019 6:19:25 PM jade.core.BaseService init
+INFO: Service jade.core.mobility.AgentMobility initialized
+avr. 30, 2019 6:19:25 PM jade.core.BaseService init
+INFO: Service jade.core.event.Notification initialized
+avr. 30, 2019 6:19:25 PM jade.mtp.http.HTTPServer <init>
+INFO: HTTP-MTP Using XML parser com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser
+avr. 30, 2019 6:19:25 PM jade.core.messaging.MessagingService boot
+INFO: MTP addresses:
+http://172.30.134.221:7778/acc
+avr. 30, 2019 6:19:25 PM jade.core.AgentContainerImpl joinPlatform
+INFO: --------------------------------------
+Agent container Main-Container@172.30.134.221 is ready.
+--------------------------------------------
+Début du comportement RS...
+Début du comportement Tabou...
+Début du comportement Genetique...
+Début du comportement HC...
+[PARIS, MARSEILLE, LYON, TOULOUSE, NICE, NANTES, STRASBOURG, MONTPELLIER, BORDEAUX, LILLE, RENNES, REIMS, LE HAVRE, SAINT-ETIENNE, TOULON, GRENOBLE, DIJON, ANGERS, SAINT-DENIS, LE MANS, AIX-EN-PROVENCE, BREST, VILLEURBANNE, NIMES, LIMOGES, CLERMONT-FERRAND, TOURS, AMIENS, METZ, BESANCON, PERPIGNAN, ORLEANS, BOULOGNE-BILLANCOURT, MULHOUSE, CAEN, ROUEN, NANCY, SAINT-DENIS, SAINT-PAUL, ARGENTEUIL, MONTREUIL, ROUBAIX, DUNKERQUE, TOURCOING, AVIGNON, NANTERRE, CRETEIL, POITIERS, FORT-DE-FRANCE, VERSAILLES, COURBEVOIE, VITRY-SUR-SEINE, PAU, COLOMBES, AULNAY-SOUS-BOIS, ASNIERES-SUR-SEINE, SAINT-PIERRE, RUEIL-MALMAISON, ANTIBES, LA ROCHELLE, SAINT-MAUR-DES-FOSSES, CHAMPIGNY-SUR-MARNE, CALAIS, AUBERVILLIERS, TAMPON, CANNES, BEZIERS, BOURGES, COLMAR, SAINT-NAZAIRE, DRANCY, MERIGNAC, AJACCIO, VALENCE, QUIMPER, ISSY-LES-MOULINEAUX, NOISY-LE-GRAND, LEVALLOIS-PERRET, VILLENEUVE-D'ASCQ, TROYES]
+Agent collecteur : J'ai reçu un message de  AGENT_HILL@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_TABOU@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_GENETIQUE@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_RS@maPlateforme
+On a trouvé mieux !
+Le nouveau résultat trouvé est 
+[PARIS, MARSEILLE, LYON, VALENCE, LE HAVRE, TAMPON, STRASBOURG, MONTPELLIER, BORDEAUX, CAEN, RENNES, VERSAILLES, NICE, SAINT-ETIENNE, ROUEN, LILLE, DIJON, ISSY-LES-MOULINEAUX, REIMS, AJACCIO, AIX-EN-PROVENCE, BREST, VILLEURBANNE, TOULON, LIMOGES, CLERMONT-FERRAND, TOURS, AMIENS, METZ, BESANCON, PERPIGNAN, ORLEANS, NANCY, MULHOUSE, GRENOBLE, TROYES, BOULOGNE-BILLANCOURT, SAINT-DENIS, SAINT-PAUL, ARGENTEUIL, MONTREUIL, ROUBAIX, DUNKERQUE, TOURCOING, AVIGNON, BEZIERS, BOURGES, POITIERS, FORT-DE-FRANCE, SAINT-DENIS, NIMES, VITRY-SUR-SEINE, SAINT-MAUR-DES-FOSSES, COLOMBES, AULNAY-SOUS-BOIS, NANTERRE, SAINT-PIERRE, RUEIL-MALMAISON, ANTIBES, LE MANS, COURBEVOIE, CHAMPIGNY-SUR-MARNE, CALAIS, AUBERVILLIERS, NANTES, CANNES, ASNIERES-SUR-SEINE, CRETEIL, COLMAR, SAINT-NAZAIRE, PAU, MERIGNAC, LA ROCHELLE, TOULOUSE, QUIMPER, ANGERS, NOISY-LE-GRAND, LEVALLOIS-PERRET, VILLENEUVE-D'ASCQ, DRANCY] : 68957.7220435285 0.0
+On essaye de trouver encore mieux...
+Agent AG : J'ai reçu un message de  AGENT_Collector@maPlateforme
+Agent RS : J'ai reçu un message de  AGENT_Collector@maPlateforme
+68957.7220435285
+Agent Tabou : J'ai reçu un message de  AGENT_Collector@maPlateforme
+68957.7220435285
+68957.7220435285
+Agent collecteur : J'ai reçu un message de  AGENT_HILL@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_HILL@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_TABOU@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_TABOU@maPlateforme
+Agent RS : J'ai reçu un message de  AGENT_Collector@maPlateforme
+68957.7220435285
+Agent collecteur : J'ai reçu un message de  AGENT_RS@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_GENETIQUE@maPlateforme
+On a trouvé mieux !
+Le nouveau résultat trouvé est 
+[RUEIL-MALMAISON, MONTPELLIER, NANTERRE, LILLE, BOULOGNE-BILLANCOURT, AMIENS, LE HAVRE, NIMES, SAINT-ETIENNE, MERIGNAC, AJACCIO, ARGENTEUIL, NANTES, AUBERVILLIERS, VERSAILLES, AIX-EN-PROVENCE, TOULOUSE, PERPIGNAN, COLOMBES, COURBEVOIE, MULHOUSE, AVIGNON, PAU, CAEN, NICE, LE MANS, FORT-DE-FRANCE, SAINT-PIERRE, SAINT-DENIS, MONTREUIL, SAINT-PAUL, BREST, METZ, CRETEIL, SAINT-NAZAIRE, GRENOBLE, RENNES, DUNKERQUE, LYON, SAINT-MAUR-DES-FOSSES, ISSY-LES-MOULINEAUX, CALAIS, LEVALLOIS-PERRET, ROUEN, BESANCON, COLMAR, ASNIERES-SUR-SEINE, PARIS, ROUBAIX, DRANCY, DIJON, CHAMPIGNY-SUR-MARNE, VALENCE, VILLEURBANNE, TOULON, NANCY, VITRY-SUR-SEINE, BOURGES, NOISY-LE-GRAND, STRASBOURG, TAMPON, QUIMPER, CLERMONT-FERRAND, CANNES, TOURCOING, VILLENEUVE-D'ASCQ, SAINT-DENIS, REIMS, TROYES, AULNAY-SOUS-BOIS, BORDEAUX, LA ROCHELLE, POITIERS, MARSEILLE, ANGERS, TOURS, BEZIERS, ORLEANS, LIMOGES, ANTIBES] : 61418.35121339396 2706.0
+On essaye de trouver encore mieux...
+Agent Tabou : J'ai reçu un message de  AGENT_Collector@maPlateforme
+Agent RS : J'ai reçu un message de  AGENT_Collector@maPlateforme
+Agent AG : J'ai reçu un message de  AGENT_Collector@maPlateforme
+61418.35121339396
+61418.35121339396
+61418.35121339396
+Agent collecteur : J'ai reçu un message de  AGENT_TABOU@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_TABOU@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_HILL@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_HILL@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_GENETIQUE@maPlateforme
+Agent RS : J'ai reçu un message de  AGENT_Collector@maPlateforme
+61418.35121339396
+Agent collecteur : J'ai reçu un message de  AGENT_RS@maPlateforme
+On a trouvé mieux !
+Le nouveau résultat trouvé est 
+[PERPIGNAN, PAU, MERIGNAC, CHAMPIGNY-SUR-MARNE, COLOMBES, QUIMPER, ANGERS, CALAIS, AUBERVILLIERS, ORLEANS, LYON, CLERMONT-FERRAND, TOULON, VITRY-SUR-SEINE, RENNES, NANTES, CAEN, TAMPON, TOURCOING, ROUBAIX, LE MANS, SAINT-ETIENNE, AIX-EN-PROVENCE, NANTERRE, ANTIBES, MARSEILLE, LE HAVRE, BREST, TOURS, DIJON, MONTPELLIER, BOURGES, LEVALLOIS-PERRET, ISSY-LES-MOULINEAUX, PARIS, SAINT-DENIS, VERSAILLES, VILLENEUVE-D'ASCQ, DRANCY, SAINT-MAUR-DES-FOSSES, AMIENS, RUEIL-MALMAISON, ARGENTEUIL, LILLE, AULNAY-SOUS-BOIS, BEZIERS, VALENCE, LA ROCHELLE, COURBEVOIE, MONTREUIL, NIMES, VILLEURBANNE, REIMS, BOULOGNE-BILLANCOURT, SAINT-NAZAIRE, SAINT-PAUL, LIMOGES, GRENOBLE, SAINT-PIERRE, SAINT-DENIS, FORT-DE-FRANCE, CRETEIL, COLMAR, NOISY-LE-GRAND, POITIERS, BORDEAUX, DUNKERQUE, ROUEN, ASNIERES-SUR-SEINE, METZ, AVIGNON, CANNES, AJACCIO, BESANCON, MULHOUSE, TOULOUSE, TROYES, NICE, STRASBOURG, NANCY] : 55295.741119166094 4470.0
+On essaye de trouver encore mieux...
+Agent AG : J'ai reçu un message de  AGENT_Collector@maPlateforme
+Agent Tabou : J'ai reçu un message de  AGENT_Collector@maPlateforme
+55295.741119166094
+Agent RS : J'ai reçu un message de  AGENT_Collector@maPlateforme
+55295.741119166094
+55295.741119166094
+Agent collecteur : J'ai reçu un message de  AGENT_HILL@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_TABOU@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_TABOU@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_HILL@maPlateforme
+Agent RS : J'ai reçu un message de  AGENT_Collector@maPlateforme
+55295.741119166094
+Agent collecteur : J'ai reçu un message de  AGENT_RS@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_RS@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_RS@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_GENETIQUE@maPlateforme
+On a trouvé mieux !
+Le nouveau résultat trouvé est 
+[CHAMPIGNY-SUR-MARNE, BOULOGNE-BILLANCOURT, CANNES, DRANCY, AUBERVILLIERS, NANTERRE, AJACCIO, NIMES, TOULOUSE, GRENOBLE, COLOMBES, AMIENS, ISSY-LES-MOULINEAUX, NANCY, BESANCON, CLERMONT-FERRAND, VILLEURBANNE, AULNAY-SOUS-BOIS, VERSAILLES, COURBEVOIE, RUEIL-MALMAISON, TAMPON, SAINT-PAUL, ROUEN, MONTREUIL, STRASBOURG, ASNIERES-SUR-SEINE, TOULON, BREST, QUIMPER, SAINT-NAZAIRE, DUNKERQUE, LILLE, MULHOUSE, SAINT-PIERRE, SAINT-DENIS, FORT-DE-FRANCE, BORDEAUX, SAINT-DENIS, METZ, SAINT-ETIENNE, AIX-EN-PROVENCE, MARSEILLE, DIJON, NOISY-LE-GRAND, PERPIGNAN, NICE, TOURCOING, LEVALLOIS-PERRET, REIMS, SAINT-MAUR-DES-FOSSES, LYON, CRETEIL, CAEN, LA ROCHELLE, VALENCE, AVIGNON, LE MANS, RENNES, MERIGNAC, BEZIERS, ORLEANS, LIMOGES, LE HAVRE, ROUBAIX, POITIERS, BOURGES, TROYES, COLMAR, PARIS, ARGENTEUIL, VITRY-SUR-SEINE, NANTES, ANGERS, TOURS, CALAIS, VILLENEUVE-D'ASCQ, MONTPELLIER, ANTIBES, PAU] : 52621.37888811026 4471.0
+On essaye de trouver encore mieux...
+Agent AG : J'ai reçu un message de  AGENT_Collector@maPlateforme
+Agent RS : J'ai reçu un message de  AGENT_Collector@maPlateforme
+52621.37888811026
+52621.37888811026
+Agent Tabou : J'ai reçu un message de  AGENT_Collector@maPlateforme
+52621.37888811026
+Agent collecteur : J'ai reçu un message de  AGENT_HILL@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_TABOU@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_HILL@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_TABOU@maPlateforme
+Agent RS : J'ai reçu un message de  AGENT_Collector@maPlateforme
+52621.37888811026
+Agent collecteur : J'ai reçu un message de  AGENT_RS@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_RS@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_RS@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_RS@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_RS@maPlateforme
+Agent collecteur : J'ai reçu un message de  AGENT_GENETIQUE@maPlateforme
+Désolé, nous n'arrivons pas à trouver mieux..
+Voici notre résultat optimale : [CHAMPIGNY-SUR-MARNE, BOULOGNE-BILLANCOURT, CANNES, DRANCY, AUBERVILLIERS, NANTERRE, AJACCIO, NIMES, TOULOUSE, GRENOBLE, COLOMBES, AMIENS, ISSY-LES-MOULINEAUX, NANCY, BESANCON, CLERMONT-FERRAND, VILLEURBANNE, AULNAY-SOUS-BOIS, VERSAILLES, COURBEVOIE, RUEIL-MALMAISON, TAMPON, SAINT-PAUL, ROUEN, MONTREUIL, STRASBOURG, ASNIERES-SUR-SEINE, TOULON, BREST, QUIMPER, SAINT-NAZAIRE, DUNKERQUE, LILLE, MULHOUSE, SAINT-PIERRE, SAINT-DENIS, FORT-DE-FRANCE, BORDEAUX, SAINT-DENIS, METZ, SAINT-ETIENNE, AIX-EN-PROVENCE, MARSEILLE, DIJON, NOISY-LE-GRAND, PERPIGNAN, NICE, TOURCOING, LEVALLOIS-PERRET, REIMS, SAINT-MAUR-DES-FOSSES, LYON, CRETEIL, CAEN, LA ROCHELLE, VALENCE, AVIGNON, LE MANS, RENNES, MERIGNAC, BEZIERS, ORLEANS, LIMOGES, LE HAVRE, ROUBAIX, POITIERS, BOURGES, TROYES, COLMAR, PARIS, ARGENTEUIL, VITRY-SUR-SEINE, NANTES, ANGERS, TOURS, CALAIS, VILLENEUVE-D'ASCQ, MONTPELLIER, ANTIBES, PAU] : 52621.37888811026 4471.0
